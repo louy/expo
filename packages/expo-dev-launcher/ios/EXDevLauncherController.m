@@ -92,7 +92,7 @@ NSString *fakeLauncherBundleUrl = @"embedded://EXDevLauncher/dummy";
   [modules addObject:[EXDevLauncherLoadingView new]];
   [modules addObject:[EXDevLauncherInternal new]];
    
-   return modules;
+   return modules.copy;
 }
 
 + (NSString * _Nullable)version {
