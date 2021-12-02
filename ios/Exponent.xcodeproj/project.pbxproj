@@ -13,8 +13,6 @@
 		0799CFDA21839B520039E97C /* EXSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 0799CFD921839B520039E97C /* EXSession.m */; };
 		07C6733224D220A5003F3F5C /* EXUpdatesBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6733024D220A4003F3F5C /* EXUpdatesBinding.m */; };
 		07C6733524D2310C003F3F5C /* EXAppLoaderExpoUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6733424D2310C003F3F5C /* EXAppLoaderExpoUpdates.m */; };
-		07CB4DCB26045AFF0057443E /* RNCPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4DC826045AFE0057443E /* RNCPicker.m */; };
-		07CB4DCC26045AFF0057443E /* RNCPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4DCA26045AFE0057443E /* RNCPickerManager.m */; };
 		07CB4DE526045B270057443E /* RNRootViewGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4DD526045B260057443E /* RNRootViewGestureRecognizer.m */; };
 		07CB4DE626045B270057443E /* RNGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4DDB26045B260057443E /* RNGestureHandler.m */; };
 		07CB4DE726045B270057443E /* RNGestureHandlerEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4DDC26045B260057443E /* RNGestureHandlerEvents.m */; };
@@ -345,7 +343,6 @@
 		F14217F9262CB68600BB97E6 /* EXKernelLinkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2740B1EC24AE1003355CE /* EXKernelLinkingManager.m */; };
 		F14217FA262CB68600BB97E6 /* EXAppState.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FB740C1FF6DADB001C764B /* EXAppState.m */; };
 		F14217FB262CB68600BB97E6 /* RNCSafeAreaViewLocalData.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB83C5F2479C3B50004FF8E /* RNCSafeAreaViewLocalData.m */; };
-		F14217FD262CB68600BB97E6 /* RNCPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4DC826045AFE0057443E /* RNCPicker.m */; };
 		F14217FE262CB68600BB97E6 /* EXKernelAppRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726F0582007E438004992E7 /* EXKernelAppRecord.m */; };
 		F14217FF262CB68600BB97E6 /* RNSVGSvgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7043DF582283303800272D74 /* RNSVGSvgView.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		F1421800262CB68600BB97E6 /* EXReactAppManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5D0D66F204F4C0400DDFC99 /* EXReactAppManager.mm */; };
@@ -455,7 +452,6 @@
 		F1421870262CB68600BB97E6 /* RNPanHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4DF226045B360057443E /* RNPanHandler.m */; };
 		F1421871262CB68600BB97E6 /* EXClientReleaseType.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8B2FC23D090E200E6C2BF /* EXClientReleaseType.m */; };
 		F1421872262CB68600BB97E6 /* EXPendingNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 255A63092154FB88009FDFC6 /* EXPendingNotification.m */; };
-		F1421873262CB68600BB97E6 /* RNCPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4DCA26045AFE0057443E /* RNCPickerManager.m */; };
 		F1421874262CB68600BB97E6 /* RNSVGGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7043DF602283303800272D74 /* RNSVGGroup.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		F1421875262CB68600BB97E6 /* RNLongPressHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4DFF26045B370057443E /* RNLongPressHandler.m */; };
 		F1421877262CB68600BB97E6 /* EXScopedErrorRecoveryModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B22BB0322366F3F400EE04EC /* EXScopedErrorRecoveryModule.m */; };
@@ -703,10 +699,6 @@
 		07C6733124D220A5003F3F5C /* EXUpdatesBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXUpdatesBinding.h; sourceTree = "<group>"; };
 		07C6733324D230FB003F3F5C /* EXAppLoaderExpoUpdates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXAppLoaderExpoUpdates.h; sourceTree = "<group>"; };
 		07C6733424D2310C003F3F5C /* EXAppLoaderExpoUpdates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXAppLoaderExpoUpdates.m; sourceTree = "<group>"; };
-		07CB4DC726045AFE0057443E /* RNCPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNCPicker.h; path = Picker/RNCPicker.h; sourceTree = "<group>"; };
-		07CB4DC826045AFE0057443E /* RNCPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNCPicker.m; path = Picker/RNCPicker.m; sourceTree = "<group>"; };
-		07CB4DC926045AFE0057443E /* RNCPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNCPickerManager.h; path = Picker/RNCPickerManager.h; sourceTree = "<group>"; };
-		07CB4DCA26045AFE0057443E /* RNCPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNCPickerManager.m; path = Picker/RNCPickerManager.m; sourceTree = "<group>"; };
 		07CB4DD526045B260057443E /* RNRootViewGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNRootViewGestureRecognizer.m; path = GestureHandler/RNRootViewGestureRecognizer.m; sourceTree = "<group>"; };
 		07CB4DD626045B260057443E /* RNGestureHandlerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNGestureHandlerManager.h; path = GestureHandler/RNGestureHandlerManager.h; sourceTree = "<group>"; };
 		07CB4DD726045B260057443E /* RNGestureHandlerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNGestureHandlerButton.h; path = GestureHandler/RNGestureHandlerButton.h; sourceTree = "<group>"; };
@@ -1396,10 +1388,6 @@
 		07CB4DC626045AF50057443E /* Picker */ = {
 			isa = PBXGroup;
 			children = (
-				07CB4DC726045AFE0057443E /* RNCPicker.h */,
-				07CB4DC826045AFE0057443E /* RNCPicker.m */,
-				07CB4DC926045AFE0057443E /* RNCPickerManager.h */,
-				07CB4DCA26045AFE0057443E /* RNCPickerManager.m */,
 				DF1B991D1D1D4B59AEFEAB9E /* RNCPicker.h */,
 				A60CC11587F645D0BF1C832F /* RNCPicker.m */,
 				DC399A3FAB604717AA140A63 /* RNCPickerLabel.h */,
@@ -1407,7 +1395,7 @@
 				C81E8BFA54234873A380A1F9 /* RNCPickerManager.h */,
 				36B3AC83321C444B879BD737 /* RNCPickerManager.m */,
 			);
-			name = Picker;
+			path = Picker;
 			sourceTree = "<group>";
 		};
 		07CB4DCD26045B010057443E /* SegmentedControl */ = {
@@ -3152,7 +3140,6 @@
 				B5C2740C1EC24AE1003355CE /* EXKernelLinkingManager.m in Sources */,
 				B5FB74E51FF6DADC001C764B /* EXAppState.m in Sources */,
 				BBB83C692479C3B50004FF8E /* RNCSafeAreaViewLocalData.m in Sources */,
-				07CB4DCB26045AFF0057443E /* RNCPicker.m in Sources */,
 				0726F0592007E438004992E7 /* EXKernelAppRecord.m in Sources */,
 				7043DF9E2283303800272D74 /* RNSVGSvgView.m in Sources */,
 				B5D0D679204F4C0400DDFC99 /* EXReactAppManager.mm in Sources */,
@@ -3265,7 +3252,6 @@
 				07CB4E0126045B380057443E /* RNPanHandler.m in Sources */,
 				31E8B2FD23D090E200E6C2BF /* EXClientReleaseType.m in Sources */,
 				255A630A2154FB89009FDFC6 /* EXPendingNotification.m in Sources */,
-				07CB4DCC26045AFF0057443E /* RNCPickerManager.m in Sources */,
 				7043DFA42283303800272D74 /* RNSVGGroup.m in Sources */,
 				07CB4E0826045B380057443E /* RNLongPressHandler.m in Sources */,
 				B22BB0342366F3F400EE04EC /* EXScopedErrorRecoveryModule.m in Sources */,
@@ -3477,7 +3463,6 @@
 				F14217F9262CB68600BB97E6 /* EXKernelLinkingManager.m in Sources */,
 				F14217FA262CB68600BB97E6 /* EXAppState.m in Sources */,
 				F14217FB262CB68600BB97E6 /* RNCSafeAreaViewLocalData.m in Sources */,
-				F14217FD262CB68600BB97E6 /* RNCPicker.m in Sources */,
 				F14217FE262CB68600BB97E6 /* EXKernelAppRecord.m in Sources */,
 				F14217FF262CB68600BB97E6 /* RNSVGSvgView.m in Sources */,
 				F1421800262CB68600BB97E6 /* EXReactAppManager.mm in Sources */,
@@ -3589,7 +3574,6 @@
 				F1421870262CB68600BB97E6 /* RNPanHandler.m in Sources */,
 				F1421871262CB68600BB97E6 /* EXClientReleaseType.m in Sources */,
 				F1421872262CB68600BB97E6 /* EXPendingNotification.m in Sources */,
-				F1421873262CB68600BB97E6 /* RNCPickerManager.m in Sources */,
 				F1421874262CB68600BB97E6 /* RNSVGGroup.m in Sources */,
 				F1421875262CB68600BB97E6 /* RNLongPressHandler.m in Sources */,
 				F1421877262CB68600BB97E6 /* EXScopedErrorRecoveryModule.m in Sources */,
