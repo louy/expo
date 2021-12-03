@@ -1,6 +1,6 @@
-# <%- project.slug %>
+# test-pkg
 
-<%- project.description %>
+
 
 ## API documentation
 

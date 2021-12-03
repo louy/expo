@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modulesClassNames": ["TestPkgModule"]
+  },
+  "android": {
+    "modulesClassNames": ["expo.modules.testpkg.TestPkgModule"]
+  }
+}
